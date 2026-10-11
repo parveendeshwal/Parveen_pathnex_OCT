@@ -18,4 +18,4 @@ resource "aws_instance" "Practice" {
 output "ec2_public_ips" {
   value = aws_instance.Practice[*].public_ip
 }
-##
+###
