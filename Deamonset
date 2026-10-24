@@ -62,7 +62,6 @@ spec:
           image: busybox
           command: ["sh", "-c", "while true; do echo Pathnex Node Monitor; sleep 20; done"]
 
-
 #  Shell Script — Monitor Disk Usage
 
 #!/bin/bash
